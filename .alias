@@ -1,0 +1,9 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias g='git'
+alias gpom='git checkout master && git pull origin master'
+alias gct='git checkout -t'
+
+alias pa='ps aux'
