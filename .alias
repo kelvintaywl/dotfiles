@@ -2,8 +2,18 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+alias just='sudo'
+alias sl='ls'
+alias pa='ps aux'
+
+alias py='python'
+# to validate & pretty-print json
+alias json='python -m json.tool'
+alias venv='virtualenv -p python3 .venv; source .venv/bin/activate'
+
 alias g='git'
 alias gpom='git checkout master && git pull origin master'
 alias gct='git checkout -t'
 
-alias pa='ps aux'
+alias d='docker'
+alias v='vagrant'
