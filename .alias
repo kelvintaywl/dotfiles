@@ -17,3 +17,4 @@ alias gct='git checkout -t'
 
 alias d='docker'
 alias v='vagrant'
+alias k='kubectl'
